@@ -1,0 +1,936 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf8">
+    <TITLE>ElektroDroid - android aplikace pro monitoring spotřeby elektrické energie</TITLE>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
+    <link rel="stylesheet" href="css/style.css">
+</HEAD>
+
+<div class="container-fluid pt-5">
+    <div class="row">
+        <div class="col">
+            <H1 class="h1 pt-4 pb-4 text-center">ElektroDroid - odečty elektrické energie</H1>
+            <h4 class="pb-4 text-center">Hledáte pomocníka, který Vám pomůže sledovat spotřebu elektrické energie ve
+                Vaší
+                domácnosti? Zde najdete
+                řešení.</h4>
+
+            <div class="accordion" id="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Kde použít ElektroDroid
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <P>ElektroDroid najde využítí zejména v domácnostech. Slouží k průběžnému záznamu
+                                (kontrolních odečtů) spotřeby elektrické energie, průběžně propočítává celkovou cenu za
+                                aktuální fakturační období. Přehledně zobrazuje měsíční spotřebu, zaplacené zálohy a
+                                ceníky.
+                                Lze porovnávat různé ceníky a v neposlední řadě zobrazí čas nízského tarifu (noční
+                                proud).
+                            <p>Stáhnout aplikaci lze z Google Play <a
+                                    href="https://play.google.com/store/apps/details?id=cz.xlisto.elektrodroid&hl=cs">
+                                    zde
+                                </a>.
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Jak používat ElektroDroid
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body row">
+                            <div class="col-md-6">
+                                <P>Princip sledování spotřeby elektrické energie spočívá v pravidelném zápisu hodnot na
+                                    elektroměru a výběru
+                                    příslušného ceníku produktu, který odebíráte. Cena automatické faktury se počítá z
+                                    hodnot poslední
+                                    vložené faktury a z hodnot posledního odečtu. K tomuto datu
+                                    je také automatická faktura dopočítávana. V aplikaci je možné vést agendu několika
+                                    odběrných míst
+                                    najednou. Pojďme si nyní představit jednotlivé funkce.
+                                    Přístup k jednotlivým funkcím je pomocí postranního menu, které se zobrazí tlačítkem
+                                    v
+                                    levém horním rohu
+                                    nebo posunutím prstu po obrazoce z leva do prava.
+                            </div>
+
+
+                            <div class="col-md text-center">
+                                <IMG src="img\S002.png" class="m-1 widthImg">
+                                <IMG src="img\S003.png" class="widthImg m-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Přehled
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body row">
+                            <div class="col-md-6">
+                                <p>Zde se zobrazí komplexní přehled o posledním mesíčním zápisu stavu elektroměru.
+                                    Hodnoty
+                                    se vztahují k
+                                    aktuálně zvolenému odběrnému místu. Výběr odběrných míst je možné
+                                    provádět pomocí menu. Zobrazí se "trojtečkou" v pravém horním rohu aplikace,
+                                    položkou
+                                    "Vyber odběrné
+                                    místo". Pokud máte zařízení s větší obrazovkou, může být položka
+                                    "Vyber odběrné místo" zobrazena na horní liště aplikace.
+                                <p>Další informací, která se zobrazí je bilance faktury. Tj. součet všech provedených
+                                    plateb
+                                    a výpočet
+                                    spotřeby elektrické enegie. Cena za spotřebovanou energii se odečte od celkem
+                                    zaplacených záloh.
+                                    Výsledek je zde zobrazený, jako kladné číslo, tak se jedná o přeplatek. Naopak
+                                    záporné číslo znamená nedoplatek. Další udaj se týká dvoutarifních elektroměrů.Je
+                                    zde
+                                    zobrazen aktuální
+                                    čas hodin elektroměru (je nutno nastavit dle skutečnosti)
+                                    a zda-li je aktivní levná sazba, či nikoliv. Pokud není aktivní, průběžně se
+                                    dopočítává
+                                    za jako dobu
+                                    levná sazba bude.
+                                <p>Grafy znázorňují historickou spotřebu podle již vyúčtovaných faktur. Které je možné
+                                    do aplikace zpětně zadat a získat přehled o dřívější spotřebě.
+                                    Pomocí přepínače můžete zobrazovat spotřebu ve vysokém a nízském tarifu nebo oba dva
+                                    tarifi dohromady.
+                            </div>
+                            <div class="col-md text-center">
+                                <img src="img\S004.png" class="widthImg m-1">
+                                <img src="img\S025.png" class="widthImg m-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Odběrná místa
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body row">
+                            <div class="col-md-6">
+                                <P>Tato část slouží pro zobrazení stávajících, přidání či úpravu a odstranění
+                                    jednotlivých
+                                    odběrných míst.
+                                <P>Ihned po instalaci aplikace je zde vytvořeno jedno odběrné místo.
+                                    Jednoduchým
+                                    tápnutím na jednu
+                                    položku odběrného místa se zobrazí detail konkrétního místa.
+                                    Jsou zde základní identifikační údaje o odběrném místě a hodnota hlavního jističe
+                                    (např.
+                                    3x25A). Odběrná místa se mohou pojmenovat, přidat popis, doplnit základní
+                                    identifikační
+                                    čísla jako číslo
+                                    elektroměru a číslo odběrného místa.
+                                <P>Dlouhým stiskem jednotlivé položky odběrného místa zobrazíte kontextové menu. Zde
+                                    jsou
+                                    dvě položky na
+                                    úpravu a smazání odběrného místa. Při odstranění odběrného místa budete ještě jednou
+                                    dotázání, zda-li
+                                    chcete opravdu odběrné místo smazat.<b>Pokud odstraníte odběrné místo, bude
+                                        odstraněno i se všemi záznamy (měsíční odečty, záznamy faktur apod.). Tato
+                                        operace
+                                        NENÁVRATNĚ tyto
+                                        záznamy smaže.</B> Úpravy proveďte v příslušných textových polích. Tlačítko
+                                    "Upravit" provedené
+                                    změny uloží a naopak tlačítko "Zpět" ponechá původní hodnoty. Nové odběrné
+                                    místo se přídá tapnutím na kulaté tlačítko se symbolem plus v pravém dolním rohu.
+                            </div>
+                            <div class="col-md text-center">
+                                <IMG src="img\S005.png" class="widthImg m-1">
+                                <IMG src="img\S006.png" class="widthImg m-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Měsíční odpočty
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <P>Zde se nachází jádro programu. Tady se vkládají pravidelně měsíční odečty
+                                        elektroměru.
+                                        Každá položka
+                                        představuje jeden odečet. Rozdíl spotřeby se počítá z rozdílu zadaného odečtu a
+                                        odečtu
+                                        předcházejícího.
+                                        Rozdíl se použije pro výpočet ceny spotřebované elektrické energie.
+                                        Samozřejmě aplikace počítá i s pravidelnými platbami (pravidelná platba za
+                                        jistič
+                                        apod.). Pokud bude
+                                        odečet proveden 1. den v měsíci (doporučeno) a předchozí odečet bude také
+                                        proveden 1.
+                                        den v měsíci. Bude
+                                        k celkové ceně spotřeby elektrické energie připočítána celá částka pravidelné
+                                        platby.
+                                        Pokud
+                                        mezi jednotlivými odečty bude méně než 1 celý měsíc, bude se pravidelná platba
+                                        počítat
+                                        poměrnou částí.
+                                        Např. odečet bude 15. den a předchozí odečet bude 1. den téhož měsíce (např.
+                                        duben - 30
+                                        dní). Pravidelná
+                                        platba bude znásobena zlomkem 15/30 pro počítání adekvátního poměru stálé
+                                        měsíční
+                                        platby. Samozřejmě tento algoritmus funguje i v případě, když mezi jednotlivými
+                                        odečty
+                                        bude více jak 1
+                                        měsíc (např. 2 měsíce a 8 dní). <B>UPOZORNĚNÍ: v tomto případě je výpočet více
+                                            zaokrouhlován, proto může
+                                            ve výsledné zobrazené ceně
+                                            vzniknout větší nepřesnost.</B>
+                                </div>
+                                <div class="col-md text-center"><IMG src="img\S007.png" class="widthImg m-1"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <P>Každá položka představuje jeden odečet. Optimálně přesně jeden měsíc. Zobrazuje
+                                        se zde
+                                        několik základních
+                                        informací. První je datum odečtu. Poznámka: Zde se den odečtu nezapočítává do
+                                        zobrazeného období. Na
+                                        obrázku je datum odečtu 1.5., stálá platba je počítána
+                                        jako za jeden celý měsíc. Tedy od 1.4. do 30.4. Takto je odstraněna chyba
+                                        jednoho
+                                        přebytečného dne,
+                                        která zkreslovala konečný výsledek.
+                                    <P>Pod datem odečtu jsou základní údaje o použitém ceníku jako tarif, sazba a
+                                        datum
+                                        platnosti ceníku. Zde
+                                        se často může stávat chyba, když při přechodu do nového roku se opomene zvolit
+                                        nový
+                                        platný ceník.
+                                    <P>Položky VT a NT značí vysoký tarif a nízký tarif. Pokud máte jednotarifní
+                                        elektroměr,
+                                        zadáváte pouze VT
+                                        (vysoký tarif). Na těchto řádcích se zobrazuje zapsaný stav elektroměru,
+                                        spotřeba v kWh
+                                        od předchozího
+                                        odečtu a cena za spotřebované kWh.
+                                    <P>Na posledních řádcích je zobrazena celková cena za spotřebovanou elektrickou
+                                        energii,
+                                        včetně stálého
+                                        platu. Bilance je rozdíl mezi celkovou cenou a stálou platbou, kterou platíte
+                                        pravidelně
+                                        každý měsíc.
+                                        Pokud cena za spotřebovanou elektrickou
+                                        energii je menší než pravidelná platba, je rozdíl zobrazen kladným, zeleným
+                                        číslem a na
+                                        začátku položky
+                                        je zobrazené zelené zatržítko. Naopak, když cena za spotřebovanou elektrickou
+                                        energii
+                                        převýší
+                                        pravidelnou platbu, je rozdíl zobrazen červeným záporným číslem
+                                        a červeným křížkem na začátku položky.
+                                    <P>Nový odpočet elektroměru zadáte stiskem tlačítka se symbolem "+". Zobrazí se pole
+                                        pro
+                                        zadání datumu. Zde
+                                        se zobrazí vždy aktuální datum. Změnit lze na položku datumu a zvolit jakýkoliv
+                                        jiný
+                                        datum. V
+                                        následujících textových polích se zadává stav
+                                        vysokého a nízského tarifu na elektroměru. Pravidelná platba je zálohová částka,
+                                        která
+                                        je placena každý
+                                        měsíc dodavateli energie. Do pole "Poznámka" lze vepsat jakoukoliv doplňující
+                                        poznámku.
+                                        Cena služby
+                                        "Garance nejnižší ceny" je doplňková služba některých dodavatelů,
+                                        kterou si učtují a je připočítávána k trvalé platbě (Stálá platba 55kč + sazba
+                                        za
+                                        jistič). Zatrhávací
+                                        políčko "První odpočet" zatrhněte pouze, když zadáváte první odpočet nebo při
+                                        výměně
+                                        elektroměru za
+                                        nový. Při zatržení tohoto políčka se nebude počítat spotřeba
+                                        od předchozího odpočtu. Vedle se nachází tlačítko pro výběr správného ceníku. Po
+                                        tapnutí, se zobrazí
+                                        seznam všech ceníků, které jsou nahrány. Tyto ceníky lze pro větší přehlednost
+                                        filtrovat
+                                        dle Produktové
+                                        řady (např.: Elektřina), Produktu (např.: Klasik),
+                                        Distribuční sazby (např.: D26), Dodavatele (např.: E.ON), Distribuční
+                                        území
+                                        (E.ON.) a Datumu
+                                        platnosti. Pokud se žádné ceníky nezobrazují, je možné, že jsou nastaveny fitry,
+                                        tak, že
+                                        žádný ceník
+                                        nevyhovuje. <em>Doporučení: nastavit pouze jeden fitr a ostatní
+                                            nastavit na "VŠE". Zkontrolovat zobrazený seznam ceníků. Případně poté
+                                            zvolit
+                                            další
+                                            filtr.</em> Ceník
+                                        vyberete jednoduchým tapnutím na položku ceníku. U vybraného ceníku je zatržený
+                                        Checkbox. Seznam ceníku
+                                        opustíte tlačítkem Zpět na telefonu. Vyplněný odečet uložíte do záznamu
+                                        odečtu tlačítkem "Uložit" a zobrazí se opět seznam odpočtů. Tlačítko "Zpět" se
+                                        vrátí na
+                                        seznam odpočtů
+                                        bez uložení.
+
+                                    <P>Jednotlivé odpočty lze i upravovat. Stačí dlouze podržet položku, kterou chceme
+                                        upravit.
+                                        Zobrazí se
+                                        kontextové menu. Vyberem položku "Upravit". Zobrazí se stejný soubor textových
+                                        polí jako
+                                        při vkládání
+                                        nového odpočtu. S tím rozdílem, že zde jsou již přednastavené
+                                        původní hodnoty upravovaného odpočtu. Provedem potřebné změny a uložíme je
+                                        tlačítkem
+                                        "Uložit". Naopak
+                                        tlačítkem "Zpět" se vrátíme na seznam odpočtů bez provedení změny.
+                                    <P>Položka z kontextového menu "Smaž" odstraní vybraný záznam z aplikace a
+                                        následující
+                                        odpočet se přepočítá
+                                        na aktuální hodnoty.
+                                </div>
+                                <div class="col-md text-center"><IMG src="img\S008.png" class="widthImg m-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Průběžná fakturace, Seznam faktur, Seznam plateb
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div clas="col-md">
+                                    <P>Tyto tři položky spolu úzce souvisí. Tato část aplikace slouží k zadávání již
+                                        doručených faktur a
+                                        následný výpočet předpokládáné faktury pro současné období. Současné období, tím
+                                        je myšleno období mezi poslední fakturou, kterou jste obdrželi od vašeho
+                                        dodavatele a posledním mesíčním odečtem pro které není vystavená
+                                        faktura. Z těchto údajů se také generuje předběžná faktura. Vezme poslední údaje
+                                        z poslední zadané faktury a údaje z posledního zadaného měsíčního odečtu.
+                                        Následně spočítá spotřebu. Po zadání platného ceníku získáte výpočet předběžné
+                                        faktury a výsledek, zda-li zaplacené zálohy pokrývají cenu spotřebované
+                                        elektřiny.
+
+                                        Ostatní faktury, které jsou zadávány do aplikace je vhodné označit číslem
+                                        faktury, pro vaši lepší orientaci mezi údaji v aplikaci a údaji na vystavené
+                                        faktuře od dodavatele.
+                                        V Seznamu
+                                        faktur uvidíte
+                                        všechny zadané faktury v aplikaci, které přísluší ke konkrétnímu odběrnému
+                                        místu.
+                                        Odběrné místo lze
+                                        změnit v menu aplikace. V Seznamu faktur lze pomocí kontextového menu
+                                        změnit číslo faktury nebo vybranou fakturu odstranit z aplikace. Tlačítkem Plus
+                                        se přidává další dílčí odečet faktury.
+                                    <p>Nová faktura v části Fakturace se přidává volbou nabídky z menu "Přidej novou
+                                        fakturu" nebo v části Seznam faktur tlačítkem Plus v pravém dolním rohu.
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3"><IMG src="img\S009.png" class="widthImg m-1"></div>
+                                <div class="col-sm-3"><IMG src="img\S010.png" class="widthImg m-1"></div>
+                                <div class="col-sm-3"><IMG src="img\S011.png" class="widthImg m-1"></div>
+                                <div class="col-sm-3"><IMG src="img\S012.png" class="widthImg m-1"></div>
+                            </div>
+                            <div class="row">
+                                <div clas="col-md">
+                                    <P>V Seznamu plateb se zobrazují pravidelné měsíční platby, které jsou placeny jako
+                                        záloha.
+                                        Tyto platby jsou
+                                        označeny jako "ŘÁDNÁ". Doplatky, či přeplatky jsou označeny jako "DOPLATEK".
+                                        Rozdíl
+                                        v
+                                        těchto platbách je
+                                        pouze ten, že Řádná platba lze zadat pouze v datumovém
+                                        rozsahu příslušné faktury, zatímco Doplatek lze zadat i mimo platnost faktury,
+                                        ke
+                                        které
+                                        přísluší. Toto
+                                        neplatí u předběžné faktury. Stejně jako u výběru odběrného místa, zadávání
+                                        plateb se vztahuje vždy k
+                                        aktuálně vybrané faktuře. Faktury volíme opět pomocí menu aplikace.
+                                        V dolní čási obrazovky se zobrazuje celkový součet všech plateb příslušných k
+                                        vybrané
+                                        faktuře a
+                                        vybranému odběrnému místu.
+                                    <P>V Průběžné fakturaci si můžeme prohlížet již zadané faktury, které jste obdrželi
+                                        za vyúčtování. Nejvíce
+                                        bude zajímavá hodnota faktura "Období bez faktury". Je to výpočet "předběžné"
+                                        faktury, kterou
+                                        bychom obdželi za
+                                        vyúčtování. Výpočet je zcela automatický. Počáteční hodnota
+                                        faktury se bere z poslední zadané faktury (proto ji aplikace potřebuje k
+                                        výpočtu) a
+                                        posledního zadaného
+                                        měsíčního odečtu. Jako uživatel zde můžete rozdělit zůčtovací období na několik
+                                        částí a
+                                        zvolit pro každé
+                                        období jiné ceníky. Zpravidla toto se využije na přelomu roku,
+                                        když je vydáván aktualizovaný ceník. V této části aplikace je v menu volba
+                                        "Generuj". Tato volba znova sestaví předběžnou fakturu podle aktuálních odečtů.
+                                    <P>V dolní části je zobrazováno několik celkových součtů. Ťuknutím na něj se zobrází
+                                        následující. Cyklicky
+                                        se mění takto. Cena celkem odebraného elektrického proudu s dph, Cena celkem
+                                        odebraného
+                                        proudu bez dph,
+                                        Celková spotřeba v MWh, Celkem zaplacenmé zálohy a Bilance je
+                                        rozdíl mezi cenou spotřebované elektrické energie a zaplacených záloh. Na
+                                        zeleném
+                                        pozadí
+                                        se zobrazí
+                                        přeplatek a na červeném pozadí je zobrazen nedoplatek.
+                                    <P> Tlačítkem se symbolem "plus" se přidává další položka ke aktuální faktuře.
+                                        Záznamy
+                                        se
+                                        řadí podle datumu.
+                                        Pokud zde zadáte nevěrohodné záznamy odečtů měřidel bude celkový výsledek také
+                                        nevěrohodný. V případě
+                                        předběžné faktury přidáním nového záznamu se rozdělí období,
+                                        které se počítá od posledního záznamu předchozí faktury až po poslední měsíční
+                                        odečet.
+                                    <P>Novou fakturu lze přidaz pomocí menu "Přidat novou fakturu". Seznam textových
+                                        polí je
+                                        shodný jako s
+                                        přidáním nové položky k faktuře, pouze je zde navíc číslo faktury. Nebo
+                                        talčítkem plus v části Seznam faktur.
+                                    <P>Podržením vybrané položky ve faktuře lze záznam upravovat nebo jej odstranit z
+                                        aplikace.
+                                        Toto je stejné
+                                        jako Úprava a Smazání měsíčního odečtu.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Ceníky
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            Tato část slouží pro tvorbu, editaci, či mazání jednotlivých ceníků. Na seznam ceníků
+                            lze
+                            aplikovat filtr.
+                            Nastavení filtru se vyvolá pomocí menu. Zde lze ceníky fitrovat dle Produktové řady,
+                            Produkt, Distribuční
+                            sazby, Dodavatele, Distribučního území nebo dle
+                            začátku datumu platnosti. Pokud se žádný ceník nezobrazuje, buď nemáte žádný ceník
+                            nahraný
+                            nebo jste
+                            aplikovali více filtru a daným kritériím žádný ceník nevyhovuje. Jednotlivé fitry se
+                            deaktivují na nastavení
+                            položky "VŠE". Výběr filtrů opustíme tlačítkem Zpět
+                            na telefonu, či tabletu.
+                            <div class="row">
+                                <div class="col-md"><IMG src="img\S013.png" class="widthImg m-1"></div>
+                                <div class="col-md"><IMG src="img\S014.png" class="widthImg m-1"></div>
+                                <div class="col-md"><IMG src="img\S015.png" class="widthImg m-1"></div>
+                            </div>
+                            <P>Nový ceník se přidá tlačítkem plus. Zde je míněno pojmem "Nový ceník" jedna sazba z
+                                konkrétního ceníku
+                                distributora. Např. sazba "Home Přímotop 20" z ceníku "Garance" u distributora
+                                Bohemi
+                                Energy. Úpravu
+                                nebo smazání konkrétního ceníku, jako v přechozím případě, provedeme
+                                podržením na konkrétním ceníku pro vyvolání kontextové nabídky.
+                                Vzhledem k rozsahu údajů, které ceník obsahuje je potřeba pro zadání všech udajů
+                                postupně
+                                jednotlivá pole posunovat.
+                                Tlačítko "Uložit" uloží nově vytvořený ceník do databáze s ceníky. Pokud se nacházíte v
+                                režimu úpravy ceníku, uloží provedené změny stávajícího ceníku.
+                            <P>Vzhledem k celkem nepraktickému a náročnému tvoření ceníků na telefonu, či tabletu je
+                                připravena pomocná
+                                aplikace do počítače. Ke spuštění je potřeba Java, kterou stáhnete zde: <a
+                                    href="https://java.com/en/download/">Odkaz na stažení Javy</a>. Nejedná se o
+                                Java
+                                applet, tedy nelze
+                                aplikaci zpustit z webového prohlížeče.
+                            <P class="text-center"><IMG src="img\S017.png" class="landImg m-1">
+                            <P>V současné době je doporučené zobrazení 1920x1080px. V případě, že se jedná o
+                                obrazovku
+                                menší, budou na
+                                pravé a spodní straně zobrazené posuvníky. Zobrazené okno znázorňuje celý ceník. Ve
+                                sloupcích jsou
+                                zobrazeny jednotlivé sazby tarifů.
+                            <P>Na obrázku níže je screen části zobrazeného okna se sazbou D01d a D02d. hned vedle je
+                                screen ceníku od
+                                E.ONu. Je zde názorně vidět ceny jsou zadávány bez DPH.
+                            <P class="text-center"><IMG src="img\ukazka_ceniku.png" class="landImg m-1">
+                            <P>Položky: Cena za dodávku elektřiny ve vysokém tarifu, Cena za dodávku elektřiny v
+                                nízském
+                                tarifu a Stálý
+                                měsiční plat jsou neregulované složky ceny a každý obchodník si je stanovuje na
+                                tržním
+                                principu. Plat za
+                                příkon a Cena za distribuované množství elektřiny stanovuje
+                                Energetický regulační úřad. Tyto položky se liší u jednotlivých distribučních
+                                společností (u nás ČEZ,
+                                E.ON. a RWE). Systémové služby, Platby za činnost operátora trhu a Podpora výkupu
+                                elektřiny u OZE, KVET
+                                a DZ jsou u všech obchodníků stejné. A tohoto lze využít pro tvorbu
+                                nových ceníků. Lze snadno z ceníku E.ONu vytvořit ceník jiného dodavatele ve stejném
+                                distribučním území. V
+                                aplikaci, kde je načtený E.ON ceník se přepsáním několika textových polí snadno
+                                vygeneruje ceník jiného dodavatele.
+                                Přepíší se položky: Produkt dodávky eletřiny, Cena za dodávku elektřiny ve VT,
+                                Cena za dodávku v NT, stálý plat. Ostatní položky jednotlivých sazeb budou již
+                                bezezměny. Dále v dolní
+                                části aplikace položky: Produktová řada, Distribuční firma, Distribuční území.
+                                Položky
+                                jako jsou email a
+                                autor jsou dobrovolné. Pokud se chystáte své vytvořene ceníky veřejně publikovat, je
+                                vhodné
+                                si ceník těmito údaji podepsat. V případě chyby je poté možné kontaktovat
+                                autora a informovat ho o chybě.
+                            <P>Ukázku jednoho ceníku si můžete stáhnout zde:<A href="EON2017cenik.pdf">E.ON</a>.
+                                Samozřejmě
+                                kompletní a aktuální ceníky najdete na webových stránkách svého distributora.
+                            <P>Tlačítkem "Ulož" se vygeneruje soubor s ceníkem ve formátu JSON, který lze importovat
+                                do aplikace v telefonu (Import a Export ceníků). V umístění, kde je spuštěn soubor
+                                aplikace "elektrodroid.jar" se
+                                vytvoří složka "ElektroDroid-Ceníky" a do této složky se budou ukládat všechny
+                                generované
+                                ceníky. Název souborů je ve formátu: Distributor Ceník Platnost
+                                Distribuční_území.json.
+                                Tyto údaje se
+                                berou z textových polí ve spodní části aplikace. Pokud je necháte původní, soubor
+                                JSON
+                                se přepíše a při
+                                následném importu ceníku do aplikace v telefonu, bude zobrazena
+                                hláška, že ceník již existuje. <b>Upozornění: Pro ukládání JSON souborů aplikace
+                                    potřebuje mít práva k
+                                    zápisu na disk. Pokud aplikace nebude mít možnost na disk zapsat data souboru,
+                                    soubor ani složka se
+                                    nevytvoří!!! Proto aplikaci spouštějte z umístění, kde máte přidělena práva
+                                    k zápisu.</b>
+                            <P>Archiv s java aplikací ke stažení: <A href="ElektroDroid.zip">ElektroDroid.zip</A>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Porovnání ceníků
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <P>Tato část slouží k porovnání dvou ceníků nebo sazeb. Po prvním prostudování
+                                        jednotlivých sazeb sice hned
+                                        vidíme která sazba je levnější, ovšem s připočtením stálých plateb během celého
+                                        roku
+                                        může být situace
+                                        úplně jiná.
+                                    <P>Na prvním a druhém obrázku je vidět porovnání dvou sazeb. Vlevém sloupečku je
+                                        D25d a
+                                        v pravém sloupčeku
+                                        D26d. První obrázek má nastavenou spotřebu 1Mwh vysokého tarifu (VT) a 3MWh
+                                        nízského
+                                        tarifu (NT),
+                                        zatímco na druhém obrázku je spotřeba 5MWh VT a 8MWh NT.
+                                        Z obrázků je jasně vidět, že při menší spotřebě je vhodnější tarif D25d, zatímco
+                                        při
+                                        spotřebě vyšší je
+                                        zase lepší zvolit D26d. Pokud toto ihned vidíte ze "surového" ceníku, tak Vám
+                                        gratuluji, jste geniální.
+                                    <P>Na posledním obrázku je vidět dialogové okno pro nastavení parametru spotřeby.
+                                        Položka "Služba garance
+                                        ceny" je fixní položka, která se připočítává ke stálé platbě. Jsou uvedeny dvě
+                                        textová pole, každé pro
+                                        jeden porovnávaný ceník. <em>Poznámka autora: S touto položkou jsem se
+                                            setkal u Bohemia Energy až ve výpisu vyučtování, nikde jinde jsem tuto
+                                            částku v
+                                            ceníku nenašel.</em> Ostatní
+                                        položky jsou pro oba sloupečky s ceníky společné.
+                                        výběr ceníku se provádí tlačítky v horní části. Lze využít filtrování ceníku
+                                        (viz.
+                                        výše). Porovnání
+                                        ceníku je zobrazeno ve třetím sloupečku, kde jsou vedle sebe zobrazeny
+                                        jednotlivé
+                                        rozdíly v cenách a
+                                        dole je celkouvý součet.
+                                </div>
+                                <div class="col-md text-center">
+                                    <IMG src="img\S018.png" class="widthImg m-1">
+                                    <IMG src="img\S019.png" class="widthImg m-1">
+                                    <IMG src="img\S020.png" class="widthImg m-1">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            Statistika spotřeby
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <P>Zde je graficky znázorněna spotřeba na vybraném odběrném místě. Data pro zobrazení
+                                grafu se čerpají z měsíčních odečtů.
+                                Grafy vysokého nebo nízkého tarifu je možné skrýt a mít znázorněný jen jeden.
+                            <p>Svislá osa znázorňuje spotřebovanou elektrickou energii.</p>
+                            <P>Vodorovná osa znázorňuje jednotlivé měsíce nebo roky (záleží na aktuálním nastavení).
+                                Tlačítky se symboly "+" a "-" lze zobrazení grafu zvětšovat a zmenšovat.
+
+                            <p> Prvním tlačítkem od levé strany lze přepínat mezi čárovým grafem a grafem sloupcovým.
+                                Druhým tlačítkem se přepíná mezi mesíční spotřebou a roční.
+
+                            <p class="text-center">
+                                <IMG src="img\S001.png" class="landImg m-1">
+                                <IMG src="img\S029.png" class="landImg m-1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            HDO - hromadné dálkové ovládání
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <P>Tento systém slouží jako regulace napájení v energetice. Pro Vás, jako odběratele
+                                        elektrické energie
+                                        to
+                                        znamená, že odebíráte proud buď ve vysokém tarifu (také znám jako denní proud)
+                                        nebo
+                                        v nízském tarifu
+                                        (znám také pod pojmem noční proud).
+                                        Jestli máte dvoutarifní sazbu poznáte buď z vyúčtování, které Vám posílá
+                                        dodavatel
+                                        elektrické
+                                        energie.
+                                        Nebo pohledem do hlavního jističe, kde je umístěn elektroměr. Jednotarifní
+                                        odběrná
+                                        místa mají pouze
+                                        jeden číselník a dvoutarifní mají číselníky dva. Každý pro jeden.
+                                        U digitálních elektroměrů může být i jeden číselník. Jednotlivé hodnoty
+                                        odebraného
+                                        množství
+                                        elektrické
+                                        energie ve vysokém a v nízském tarifu se zorazují střídavě. Pokud si nejste
+                                        jisti,
+                                        pro bližší
+                                        informace
+                                        se obraťte na svého ddavatele energie.
+                                    <P>Spínání nízského tarifu se může provádět dvěma způsoby.
+                                        První je jednodušší. Jednotlivé časy sepnutí jsou pevně nastaveny na hodinách
+                                        uvnitř
+                                        hlavního
+                                        rozvaděče.
+                                        Měnit je či upravovat může pouze technik.
+                                        Druhá možnost je spínání pomocí signálu HDO. Kód HDO, který může být jen číselný
+                                        nebo i složen z
+                                        několika znaků a čísel by měl být k nalezení opět v hlavním rozvaděči, kde se
+                                        nachází elektroměr.
+                                        Pokud
+                                        tam není, nebo je nečitelný, budete se muset opět obrátit na svěho
+                                        dodavatele energie.
+                                        Aplikace umí pracovat jak s první možností, tak samozžejmě i s druhou. Pro
+                                        získání
+                                        spínacích časů
+                                        HDO,
+                                        aplikace potřebuje připojení k internetu. Platné časy jsou uloženy do interní
+                                        databáze. Pro další
+                                        stažení nových platných časů je potřeba, až když těm současným
+                                        končí platnost.
+                                    <p><u>Ruční přidání času nízkého tarifu</u>
+                                    <p>Kliknutím na tlačítko se symbolem "plus". Zobrazí se zatrhávací políčka
+                                        jednotlivých
+                                        dní, pro které
+                                        bude
+                                        čas platný. Níže zadáte počátek a konec platnosti nízského tarifu ve formátu
+                                        HH:mm.
+                                        Relé-tarif není
+                                        potřeba vyplňovat. Je zde pro případnou úpravu již stažených
+                                        časů přímo od distributora. Tlačítkem "Přidej" se zadaný interval času přidá do
+                                        interní databáze.
+                                        Podržením nad konkrétní časem v seznamu časů se zobrazí kontextová nabídka pro
+                                        úpravu nebo smazání
+                                        konkrétního času nízského tarifu.
+                                        Velkými číslicemi je zobrazen čas elektroměru. Tlačítky se symboly "plus" a
+                                        "mínus"
+                                        na každí straně
+                                        obrazovky lze synchronizovat nastavení hodin se skutečným časem na hodinách v
+                                        elektroměru.
+                                    <p><u>Načtení časů HDO od distributora</u>
+                                    <p>Tlačítkem "Načti HDO" se zobrazí ovládací prvky pro zadání kódu HDO, distributora
+                                        a
+                                        zadání polohy,
+                                        pro
+                                        kterou má kod HDO platnost. Například kód HDO 185 v distribuční síti E.ONu pro
+                                        okres
+                                        Zlín načte jiné
+                                        časy než pro okres Tábor. Po zadání všech parametrů (kód HDO
+                                        nalezneme v hlavním rozvaděči) stiskneme tlačítko "Načti". V tuto chvíli
+                                        aplikace
+                                        potřebuje
+                                        internetové
+                                        připojení. V případě úspěchu se zobrazí seznam všech časů nízského tarifu. Celý
+                                        seznam uložíme
+                                        kliknutím
+                                        na tlačítko se symbolem diskety. Tím dojde k uložení časů
+                                        do interní databáte. Předchozí časy budou přepsány novými. Toto je nevratný
+                                        proces.
+                                        Tlačítko "Načti www" zobrazí časy HDO s nízkým tarifem v internetovém
+                                        prohlížeči.
+                                        Tlačítko "Vyjímky" zobrazí u distributora E.ONu vyjímky z okresního uspořádání.
+                                        U
+                                        dalších
+                                        distributorů
+                                        je toto tlačítko nevyužito.
+                                        Poznámka: Aplikace zatím neumí rozlišovat časy HDO ve svátek.
+                                </div>
+
+                                <div class="col-md text-center">
+                                    <IMG src="img\S022.png" class="widthImg m-1">
+                                    <IMG src="img\S023.png" class="widthImg m-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEleven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            Záloha
+                        </button>
+                    </h2>
+                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>V této části můžete provádět zálohování svých odečtů a ceníků. Tlačítkem "Vyber
+                                        složku" si nastavíte umistění záloh. Zobrazí se dialogové okno pro výběr složky.
+                                        Pokud složku vybíráte poprvé, v dolní části
+                                        se zobrazí tlačítko pro udělení oprávnění pro zápis. Při změně složky je potřeba
+                                        znova povolit oprávnění zápisu pro nově vybranou složku. Nastavení složky pro
+                                        zálohy
+                                        také můžete
+                                        nastavit v Nastavení. Tlačítkem "Zálohuj" vytvoříte zálohu databáze s ceníky a
+                                        zálohu s odečty. Záložní soubory se zobrazí v seznamu pod
+                                        tlačíty. Obnovu zálohy provedete kliknutím na vybranou položku a potvrdíte
+                                        dialogové
+                                        okno tlačítkem OK. Podržením vybrané položky se zobrazí
+                                        kontextové menu na smazání vybrané zálohy. Tento proces je nevratný.
+                                    <p> V dřívějších verzích byla záloha rozdělena do dvou soborů. Zvlášť záloha odečtů
+                                        a
+                                        zvlášť záloha ceníků. Takové rozdělení
+                                        se neukázalo jako optimální. Nyní se tyto dva záložní soubory zabalí do jednoho
+                                        zip
+                                        archivu. Který si můžete nahrát v počítači
+                                        a zobrazit jednotlivá data. Z důvodu zachování kompatibility jsou původní
+                                        záložní
+                                        stále akceptovány pro obnovení dat.
+                                    <p>Pro dokonalé zálohování a zabránění ztrátě dat je dobrým zvykem záložní soubory
+                                        zálohovat do cloudu (např. Disk Google). Záložní soubory jsou uloženy na více
+                                        místech a snadno lze data obnovit při instalaci na nový telefon.
+                                </div>
+                                <div class="col-md text-center">
+                                    <IMG src="img\S024.png" class="widthImg m-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                            Export/Import ceníků
+                        </button>
+                    </h2>
+                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>V této části můžete snadno do aplikace nahrávat kompletní ceníky. Kompletní, tím
+                                        je
+                                        míněno ceník
+                                        obsahující
+                                        všechny sazby D1 až D61.
+                                        Seznam již nahraných ceníků se zobrazí v seznamu, který můžete filtrovat podle
+                                        datumu
+                                        nebo názvu.
+                                        Kliknutím
+                                        na položku se ceník uloží do předvolené složky. Nastavení složky se provádí v
+                                        Nastavení.
+                                        Import se provádí výběrem v menu "Vyber JSON". Zde si nalistujete umístění
+                                        souborů s
+                                        ceníky (JSON) a
+                                        kliknutím na jednotlivou položku ceník importujete do vnitřní databáze aplikace.
+                                        Pokud
+                                        ceník se stejným
+                                        názvem již existuje, jste dotázání na přepsání stávajícího ceníku.
+                                    <p>Podržením položky na jednotlivých položkách se zobrazí kontextové menu s volbou
+                                        na
+                                        smazání vybraného
+                                        ceníku
+                                        (smažou se všechny sazby v ceníku).To je rozdíl při smazání ceníku v sekci
+                                        Ceníky. V
+                                        Ceníkách mažete
+                                        vždy
+                                        pouze jednu sazbu.
+                                </div>
+                                <div class="col-md text-center">
+                                    <IMG src="img\S026.png" class="widthImg m-1">
+                                    <IMG src="img\S027.png" class="widthImg m-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThirteen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                            Nastavení aplikace
+                        </button>
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Nastavení zobrazíte pomocí Menu, které skrývá pod tlačítkem se třemi tlačítky.
+                                        (Zde
+                                        záleží na verzi
+                                        Android)
+                                    <ul>
+                                        <li>Kontrola odečtů - kontroluje zadávané měsíční odečty. Nedovolí zadat starší
+                                            datum nebo menší odečet, než je datum nebo odečet předchozí.</li>
+                                        <li>Přesnost výpočtů - nastaví přesnost výpočtů na 2 nebo 3 desetinná místa</li>
+                                        <li>zálohování - nastaví a dotáže se na povolení pro zápis do složky pro uložení
+                                            záloh. </li>
+                                        <li>Podpis, email - Do vytvářeného ceníku přidá podpis autora a email na autora
+                                            ceníku. Tyto položky jsou nepovinné. Pokud ceníky budou dále šířené, nelze
+                                            zpětně kontaktovat autora v
+                                            případě chyby v ceníku.
+                                    </ul>
+
+
+                                </div>
+                                <div class="col-md text-center"><IMG src="img\S028.png" class="widthImg m-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!--<H4>Import ceníků z internetu</H4>
+                Již zpracované ceníky jsou nyní uloženy na stránkách <a
+                    href="http://elektrodroid.kvalitne.cz/ceniky.php">http://elektrodroid.kvalitne.cz/ceniky.php</a> Při
+                prvním zobrazení se vypíší všechny dostupné ceníky. Pro lepší přehlednost můžete použít filtrování podle
+                Distribučního území, Dodavatele energie a Datumu platnosti ceníku. Vše potvrdíte tlačítkem Načíst.
+                Zobrazí
+                se nový seznam ceníků, který bude vyhovovat daným kritériím. Kliknutím na odkaz se ceník uloží do
+                počítače
+                nebo telefonu. Najdete jej ve standartní složce,
+                kterou máte určenou pro stahování souborů. Tento soubor lze do aplikace importovat předchozí volbou
+                Export/Import ceníků. Pokud se žádný ceník nezobrazí, vybrali jste kritéria, kterým žádný nevyhovuje.
+                <IMG src="img\S030.png">
+                <p>Nebo můžete využít import přimo do telefonu. Pomocí třech rozevíracích seznamů nastavte filtr ceníků.
+                    První vybírá dle dodavatele energie, druhý podle datumů platnosti. U tohoto seznamů můžete vybrat
+                    položku "Vše", tím se vám zobrazí všechny ceníky
+                    bez ohledu na platnost datumu. Poslední seznam filtruje ceníky podle distribučního území.
+                    Stiskem tlačítka Načti z www se zobrazí seznam dostupných ceníků. Jednoduchým tapnutím na položku
+                    ceníku
+                    se nahraje ceník do telefonu. Pokud již stejný ceník existuje, budete na tuto skutečnost upozorněni.
+                <TABLE>
+                    <TR>
+                        <TD><IMG src="img\S029.png">
+                </TABLE>-->
+        <div class="text-center p-3">
+            <span class="m-5">Autor aplikace: Xlisto</span><span class="m-5"> x.listo@seznam.cz</span>
+        </div>
+
+
+
+    </div>
+</div>
+</DIV>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</HTML>

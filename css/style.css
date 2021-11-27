@@ -1,0 +1,27 @@
+.widthImg {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+}
+
+.landImg {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+}
+
+  @media screen and (min-width:500px) {
+    .widthImg {
+        max-width: 100%;
+        width: 350px;
+        height: auto;
+    }
+
+    .landImg {
+        max-width: 100%;
+        width: 1000px;
+        height: auto;
+    }
+  }
+
+
